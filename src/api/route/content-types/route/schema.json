@@ -39,6 +39,13 @@
     "travelOptions": {
       "type": "json",
       "required": true
+    },
+    "waypointsGpxFile": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
