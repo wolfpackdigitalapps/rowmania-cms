@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "planName": {
+      "type": "string",
+      "required": true
+    },
+    "routes": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
