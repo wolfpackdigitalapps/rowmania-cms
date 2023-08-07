@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_planned_route_routes",
+  "info": {
+    "displayName": "PlannedRoute",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "route": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::route.route"
+    },
+    "travelOption": {
+      "type": "enumeration",
+      "enum": [
+        "kayak",
+        "canoe",
+        "walk",
+        "bicycle",
+        "car",
+        "bus",
+        "speedboat",
+        "motorboat",
+        "carriage"
+      ],
+      "required": true
+    }
+  }
+}

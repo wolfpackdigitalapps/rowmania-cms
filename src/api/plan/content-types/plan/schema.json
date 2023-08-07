@@ -4,7 +4,8 @@
   "info": {
     "singularName": "plan",
     "pluralName": "plans",
-    "displayName": "Plan"
+    "displayName": "Plan",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +17,9 @@
       "required": true
     },
     "routes": {
-      "type": "json",
+      "type": "component",
+      "repeatable": true,
+      "component": "planned-route.route",
       "required": true
     }
   }

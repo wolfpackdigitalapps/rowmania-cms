@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_travel_option_travel_options",
+  "info": {
+    "displayName": "TravelOption",
+    "icon": "walk"
+  },
+  "options": {},
+  "attributes": {
+    "vehicle": {
+      "type": "string",
+      "required": true
+    },
+    "km": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "required": true
+    },
+    "hours": {
+      "type": "string",
+      "required": true
+    },
+    "estimatedCO2": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

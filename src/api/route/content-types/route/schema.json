@@ -36,16 +36,19 @@
         "images"
       ]
     },
-    "travelOptions": {
-      "type": "json",
-      "required": true
-    },
     "waypointsGpxFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "travelOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "travel-option.travel-option",
+      "required": true
     }
   }
 }
