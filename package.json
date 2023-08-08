@@ -13,6 +13,7 @@
     "@flydotio/dockerfile": "^0.4.2"
   },
   "dependencies": {
+    "@strapi/plugin-documentation": "4.12.1",
     "@strapi/plugin-i18n": "4.12.1",
     "@strapi/plugin-users-permissions": "4.12.1",
     "@strapi/strapi": "4.12.1",
