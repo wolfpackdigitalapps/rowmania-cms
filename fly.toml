@@ -9,12 +9,8 @@ primary_region = "otp"
 [build]
 
 [[mounts]]
-  source = "data"
-  destination = "/data"
-
-[mounts]
-  source="uploads"
-  destination="/public/uploads"
+  source="data"
+  destination="/app/public/uploads"
 
 [http_service]
   internal_port = 3000
