@@ -49,6 +49,9 @@
       "repeatable": true,
       "component": "travel-option.travel-option",
       "required": true
+    },
+    "startPoint": {
+      "type": "string"
     }
   }
 }
