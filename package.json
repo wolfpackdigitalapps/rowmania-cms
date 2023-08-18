@@ -13,10 +13,10 @@
     "@flydotio/dockerfile": "^0.4.2"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.12.1",
-    "@strapi/plugin-users-permissions": "4.12.1",
-    "@strapi/provider-upload-local": "^4.12.4",
-    "@strapi/strapi": "4.12.1",
+    "@strapi/plugin-i18n": "4.12.5",
+    "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/provider-upload-local": "4.12.5",
+    "@strapi/strapi": "4.12.5",
     "better-sqlite3": "8.5.0",
     "pg": "^8.11.2",
     "pg-connection-string": "^2.6.2"
