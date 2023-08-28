@@ -36,14 +36,6 @@
         "images"
       ]
     },
-    "waypointsGpxFile": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "files"
-      ]
-    },
     "travelOptions": {
       "type": "component",
       "repeatable": true,

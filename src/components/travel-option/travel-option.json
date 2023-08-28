@@ -2,14 +2,11 @@
   "collectionName": "components_travel_option_travel_options",
   "info": {
     "displayName": "TravelOption",
-    "icon": "walk"
+    "icon": "walk",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "vehicle": {
-      "type": "string",
-      "required": true
-    },
     "km": {
       "type": "integer",
       "required": true,
@@ -31,6 +28,20 @@
     "estimatedCO2": {
       "type": "integer",
       "required": true
+    },
+    "vehicle": {
+      "type": "enumeration",
+      "enum": [
+        "kayak",
+        "canoe",
+        "walk",
+        "bicycle",
+        "car",
+        "bus",
+        "speedboat",
+        "motorboat",
+        "carriage"
+      ]
     }
   }
 }
