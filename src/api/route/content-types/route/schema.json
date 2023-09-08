@@ -43,7 +43,8 @@
       "required": true
     },
     "startPoint": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

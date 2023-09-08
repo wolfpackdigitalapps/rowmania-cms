@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for rowmania-cms on 2023-08-07T11:28:11+03:00
+# fly.toml app configuration file generated for slowdelta-cms on 2023-09-08T09:53:11+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "rowmania-cms"
+app = "slowdelta-cms"
 primary_region = "otp"
 
 [build]
